@@ -1,0 +1,14 @@
+Exp-12
+pip install virtualenv
+python -m venv envi
+dir
+.\envi\Scripts\activate
+pip list
+pip install Django
+pip list
+django-admin --version
+django-admin startproject myproject
+dir
+cd myproject
+code .
+python manage.py runserver
